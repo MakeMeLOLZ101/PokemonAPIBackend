@@ -1,0 +1,11 @@
+C:\Users\ianch\OneDrive\Documents\CODESTACK\Level 2 Assignments\PokemonAPIChallenge\PokemonAPIBackend\bin\Release\net8.0\publish\PokemonAPIBackend.exe
+C:\Users\ianch\OneDrive\Documents\CODESTACK\Level 2 Assignments\PokemonAPIChallenge\PokemonAPIBackend\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\ianch\OneDrive\Documents\CODESTACK\Level 2 Assignments\PokemonAPIChallenge\PokemonAPIBackend\bin\Release\net8.0\publish\appsettings.json
+C:\Users\ianch\OneDrive\Documents\CODESTACK\Level 2 Assignments\PokemonAPIChallenge\PokemonAPIBackend\bin\Release\net8.0\publish\PokemonAPIBackend.dll
+C:\Users\ianch\OneDrive\Documents\CODESTACK\Level 2 Assignments\PokemonAPIChallenge\PokemonAPIBackend\bin\Release\net8.0\publish\PokemonAPIBackend.deps.json
+C:\Users\ianch\OneDrive\Documents\CODESTACK\Level 2 Assignments\PokemonAPIChallenge\PokemonAPIBackend\bin\Release\net8.0\publish\PokemonAPIBackend.runtimeconfig.json
+C:\Users\ianch\OneDrive\Documents\CODESTACK\Level 2 Assignments\PokemonAPIChallenge\PokemonAPIBackend\bin\Release\net8.0\publish\PokemonAPIBackend.pdb
+C:\Users\ianch\OneDrive\Documents\CODESTACK\Level 2 Assignments\PokemonAPIChallenge\PokemonAPIBackend\bin\Release\net8.0\publish\Microsoft.OpenApi.dll
+C:\Users\ianch\OneDrive\Documents\CODESTACK\Level 2 Assignments\PokemonAPIChallenge\PokemonAPIBackend\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ianch\OneDrive\Documents\CODESTACK\Level 2 Assignments\PokemonAPIChallenge\PokemonAPIBackend\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ianch\OneDrive\Documents\CODESTACK\Level 2 Assignments\PokemonAPIChallenge\PokemonAPIBackend\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
