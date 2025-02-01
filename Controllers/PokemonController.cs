@@ -13,10 +13,12 @@ namespace PokemonAPIBackend.Controllers
     public class PokemonController : ControllerBase
     {
         private readonly PokemonService _pokemonService;
+        private readonly ILogger<PokemonController> _logger;
 
-        public PokemonController(PokemonService pokemonService)
+        public PokemonController(PokemonService pokemonService, ILogger<PokemonController> logger)
         {
             _pokemonService = pokemonService;
+            _logger = logger;
         }
 
         [HttpGet("{nameOrId}")]
@@ -30,13 +32,20 @@ namespace PokemonAPIBackend.Controllers
         }
 
         [HttpGet("random")]
-        public async Task<ActionResult<PokemonModel>> GetRandomPokemon()
-        {
-            var pokemon = await _pokemonService.GetRandomPokemon();
-            if (pokemon == null)
-                return NotFound();
-                
-            return Ok(pokemon);
-        }
+public async Task<ActionResult<PokemonModel>> GetRandomPokemon()
+{
+    try 
+    {
+        var pokemon = await _pokemonService.GetRandomPokemon();
+        if (pokemon == null)
+            return StatusCode(500, "Failed to fetch random Pokemon");
+            
+        return Ok(pokemon);
+    }
+    catch (Exception ex)
+    {
+        return StatusCode(500, "An error occurred while fetching random Pokemon");
+    }
+}
     }
 }
